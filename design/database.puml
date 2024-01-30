@@ -1,0 +1,103 @@
+@startuml
+
+!theme plain
+hide empty methods
+
+!procedure $schema($name, $slug)
+package "$name" as $slug <<Rectangle>>
+!endprocedure
+
+!procedure $table($name, $slug)
+entity "<b>$name</b>" as $slug << (T, Orange) table >>
+!endprocedure
+
+!procedure $view($name, $slug)
+entity "<b>$name</b>" as $slug << (V, Aquamarine) view >>
+!endprocedure
+
+!procedure $pk($name)
+<color:#GoldenRod><&key></color> <b>$name</b>
+!endprocedure
+
+!procedure $fk($name)
+<color:#Silver><&key></color> $name
+!endprocedure
+
+!procedure $column($name)
+{field} <color:#White><&media-record></color> $name
+!endprocedure
+
+!procedure $json($name, $slug)
+entity "<b>$name</b>" as $slug << (J, White) json >>
+!endprocedure
+
+
+
+title "Clean Out Your Fridge : DB Schema"
+
+
+$schema("Users primary data", "id_c001") {
+
+    $table("USERS", "id_t001") {
+        $pk("ID") : INTEGER NOT NULL
+        $column("USERNAME") : NOT NULL
+        $column("EMAIL") : NOT NULL
+        $column("DIET") : INTEGER
+    }
+
+    $table("USERCATALOG", "id_t003") {
+        $fk("USERID") : INTEGER NOT NULL
+        $fk("RECIPEID") : INTEGER NOT NULL
+    }
+}
+
+$schema("Recipes", "id_c002") {
+
+    $table("RECIPESCATALOG", "id_t002") {
+        $pk("ID") : INTEGER NOT NULL
+        $column("NAME") : VARCHAR NOT NULL
+        $column("DIET") : VARCHAR NOT NULL
+        $column("PATH") : VARCHAR NOT NULL UNIQUE
+    }
+
+
+    file f1 [
+    recipe as Json
+    {{json
+    {
+    "ID" : "",
+    "NAME": "",
+    "DIET": "",
+    "DESCRIPTION": "",
+    "INGREDIENTS": [
+        ["NAME", "NUMBER"], ["...", "..."]
+    ],
+    "...": "..."
+    }
+    }}
+    ]
+
+
+    note left of id_t002 : Use as Cache
+
+}
+
+
+folder recipes_img {
+
+}
+
+
+
+
+
+
+id_c001.id_t001::ID --o{ id_c001.id_t003::USERID
+id_c001.id_t003::RECIPEID --|{ id_c002.id_t002::ID
+id_c002.id_t002::ID ||--|| f1
+id_c002.id_t002::PATH ||--|| recipes_img
+
+
+
+
+@enduml

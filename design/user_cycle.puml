@@ -1,0 +1,86 @@
+@startuml
+title User State Diagram
+
+[*] --> Start_App
+
+state Start_App {
+  state "Idle" as Start_App_Idle
+  state "Load local data" as Start_App_Loadlocaldata
+  state "Configuring" as Start_App_Configuring
+  state user_is_register <<choice>>
+
+  Start_App --> Start_App_Idle
+  Start_App_Idle --> Start_App_Loadlocaldata
+  Start_App_Loadlocaldata --> user_is_register
+  user_is_register --> Start_App_Configuring : User is in cache
+  user_is_register --> Create_Account : Register User
+  user_is_register --> Login_Account : Login User
+  Start_App_Configuring --> Main_Page
+
+}
+
+state Create_Account {
+  state "Register User Information" as Register_User_Information
+  state "Check user data confirmity" as Check_user_data_confirmity : Fetch DataBase and check confirmity
+  state autority_check_user_register <<choice>>
+  state "Configuring and update cache" as Create_Account_Configuring
+
+  Create_Account --> Register_User_Information
+  Register_User_Information --> Check_user_data_confirmity
+  Check_user_data_confirmity --> autority_check_user_register
+  autority_check_user_register --> Register_User_Information : Data non invalid
+  autority_check_user_register --> Create_Account_Configuring : Valid Data
+  Create_Account_Configuring --> Main_Page
+}
+
+state Login_Account {
+  state "Get user credential" as get_user_credential
+  state "Fetch DB" as Login_fetch_db : Fetch DataBase and check confirmity
+  state login_check_confirmity <<choice>>
+  state "Configuring and update cache" as login_update_cache
+
+  Login_Account --> get_user_credential
+  get_user_credential --> Login_fetch_db
+  Login_fetch_db --> login_check_confirmity
+  login_check_confirmity --> get_user_credential : login not valid
+  login_check_confirmity --> login_update_cache : login valid
+  login_update_cache --> Main_Page
+}
+
+state "Main Page" as Main_Page {
+  state "Selection menu" as Selection_menu : Main page
+  state "Selection" as main_select_all <<choice>>
+
+  state "User profile" as User_profile : User information
+  state "Food list" as Liste_de_course {
+    state "Update" as Food_update : Update actual value of the item in the basket
+    state "Add" as Food_add : Add a new product in the basket
+
+    Liste_de_course --> Food_add
+    Liste_de_course --> Food_update
+  }
+  state "History" as Historique : Review the user hitory
+  state "Recipes" as Recipe {
+    state "Filter" as Recipe_Filter : Filter the recipes with parameters
+
+    Recipe --> Recipe_Filter
+  }
+  state "Favorite Recipe" as Favorite_Recipe
+
+
+  Main_Page --> Selection_menu
+  Selection_menu --> main_select_all
+  main_select_all --> User_profile
+  main_select_all --> Liste_de_course
+  main_select_all --> Historique
+  main_select_all --> Recipe
+
+  main_select_all --> Favorite_Recipe
+
+
+
+}
+
+
+
+@enduml
