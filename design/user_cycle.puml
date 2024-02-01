@@ -59,7 +59,6 @@ state "Main Page" as Main_Page {
     Liste_de_course --> Food_add
     Liste_de_course --> Food_update
   }
-  state "History" as Historique : Review the user hitory
   state "Recipes" as Recipe {
     state "Filter" as Recipe_Filter : Filter the recipes with parameters
 
@@ -72,7 +71,6 @@ state "Main Page" as Main_Page {
   Selection_menu --> main_select_all
   main_select_all --> User_profile
   main_select_all --> Liste_de_course
-  main_select_all --> Historique
   main_select_all --> Recipe
 
   main_select_all --> Favorite_Recipe

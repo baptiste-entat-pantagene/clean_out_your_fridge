@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="862px" preserveAspectRatio="none" style="width:577px;height:862px;background:#FFFFFF;" version="1.1" viewBox="0 0 577 862" width="577px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="36.7373" id="_title" style="stroke:#FFFFFF;stroke-width:0.0;" width="451" x="58.75" y="10"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="441" x="63.75" y="37.1182">Clean Out Your Fridge : DB Schema</text><!--MD5=[5963c0df5ab9047033142c34757ec27a]
+cluster id_c001--><g id="cluster_id_c001"><rect fill="#FFFFFF" height="337" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="409" x="12" y="59.8564"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="238" x="97.5" y="83.9746">Users primary data</text></g><!--MD5=[ef051bb10eac6b421edebfc8f39f6c5d]
+cluster id_c002--><g id="cluster_id_c002"><rect fill="#FFFFFF" height="436" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="364" x="74" y="420.8564"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="96" x="208" y="444.9746">Recipes</text></g><!--MD5=[7f7f406a72faa6fd4f1dafee013e74b1]
+class id_t001--><g id="elem_id_t001"><rect codeLine="10" fill="#FFFFFF" height="117.6572" id="id_t001" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="202.3333" x="171" y="108.8564"/><ellipse cx="242.4167" cy="129.6558" fill="#FFA500" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M241.3854,136.6558 L241.3854,126.5464 L237.776,126.5464 L237.776,124.4839 L247.4479,124.4839 L247.4479,126.5464 L243.8542,126.5464 L243.8542,136.6558 L241.3854,136.6558 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="263.4167" y="125.9209">«table»</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="259.9167" y="142.5156">USERS</text><line style="stroke:#000000;stroke-width:1.0;" x1="172" x2="372.3333" y1="150.4551" y2="150.4551"/><path d="M184.4167,158.6364 C182.8067,158.6364 181.5,159.9431 181.5,161.5531 C181.5,161.7397 181.5,161.9264 181.535,162.1014 L178,165.6364 L178,167.9697 L181.5,167.9697 L181.5,165.6364 L183.8333,165.6364 L183.8333,164.4697 L183.8683,164.4347 C184.0433,164.4697 184.23,164.4697 184.4167,164.4697 C186.0267,164.4697 187.3333,163.1631 187.3333,161.5531 C187.3333,159.9431 186.0267,158.6364 184.4167,158.6364 M185,159.8031 C185.6417,159.8031 186.1667,160.3281 186.1667,160.9697 C186.1667,161.6114 185.6417,162.1364 185,162.1364 C184.3583,162.1364 183.8333,161.6114 183.8333,160.9697 C183.8333,160.3281 184.3583,159.8031 185,159.8031 " fill="#DAA520" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="5" x="188.3333" y="168.5303"> </text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="19" x="193.3333" y="168.5303">ID</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="150" x="217.3333" y="168.5303">: INTEGER NOT NULL</text><path d="M181.5,175.651 C179.5633,175.651 178,177.2144 178,179.151 C178,181.0877 179.5633,182.651 181.5,182.651 C183.4367,182.651 185,181.0877 185,179.151 C185,177.2144 183.4367,175.651 181.5,175.651 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="166" x="193.3333" y="185.5449">USERNAME : NOT NULL</text><path d="M181.5,192.6657 C179.5633,192.6657 178,194.229 178,196.1657 C178,198.1024 179.5633,199.6657 181.5,199.6657 C183.4367,199.6657 185,198.1024 185,196.1657 C185,194.229 183.4367,192.6657 181.5,192.6657 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="130" x="193.3333" y="202.5596">EMAIL : NOT NULL</text><path d="M181.5,209.6803 C179.5633,209.6803 178,211.2437 178,213.1803 C178,215.117 179.5633,216.6803 181.5,216.6803 C183.4367,216.6803 185,215.117 185,213.1803 C185,211.2437 183.4367,209.6803 181.5,209.6803 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="113" x="193.3333" y="219.5742">DIET : INTEGER</text></g><!--MD5=[05d18b0b854d56792db8f21fddba610b]
+class id_t003--><g id="elem_id_t003"><rect codeLine="10" fill="#FFFFFF" height="83.6279" id="id_t003" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="250.3333" x="147" y="293.8564"/><ellipse cx="209.9167" cy="314.6558" fill="#FFA500" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M208.8854,321.6558 L208.8854,311.5464 L205.276,311.5464 L205.276,309.4839 L214.9479,309.4839 L214.9479,311.5464 L211.3542,311.5464 L211.3542,321.6558 L208.8854,321.6558 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="263.4167" y="310.9209">«table»</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="117" x="227.4167" y="327.5156">USERCATALOG</text><line style="stroke:#000000;stroke-width:1.0;" x1="148" x2="396.3333" y1="335.4551" y2="335.4551"/><path d="M160.4167,343.6364 C158.8067,343.6364 157.5,344.9431 157.5,346.5531 C157.5,346.7397 157.5,346.9264 157.535,347.1014 L154,350.6364 L154,352.9697 L157.5,352.9697 L157.5,350.6364 L159.8333,350.6364 L159.8333,349.4697 L159.8683,349.4347 C160.0433,349.4697 160.23,349.4697 160.4167,349.4697 C162.0267,349.4697 163.3333,348.1631 163.3333,346.5531 C163.3333,344.9431 162.0267,343.6364 160.4167,343.6364 M161,344.8031 C161.6417,344.8031 162.1667,345.3281 162.1667,345.9697 C162.1667,346.6114 161.6417,347.1364 161,347.1364 C160.3583,347.1364 159.8333,346.6114 159.8333,345.9697 C159.8333,345.3281 160.3583,344.8031 161,344.8031 " fill="#C0C0C0" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="210" x="169.3333" y="353.5303">USERID : INTEGER NOT NULL</text><path d="M160.4167,360.651 C158.8067,360.651 157.5,361.9577 157.5,363.5677 C157.5,363.7544 157.5,363.941 157.535,364.116 L154,367.651 L154,369.9844 L157.5,369.9844 L157.5,367.651 L159.8333,367.651 L159.8333,366.4844 L159.8683,366.4494 C160.0433,366.4844 160.23,366.4844 160.4167,366.4844 C162.0267,366.4844 163.3333,365.1777 163.3333,363.5677 C163.3333,361.9577 162.0267,360.651 160.4167,360.651 M161,361.8177 C161.6417,361.8177 162.1667,362.3427 162.1667,362.9844 C162.1667,363.626 161.6417,364.151 161,364.151 C160.3583,364.151 159.8333,363.626 159.8333,362.9844 C159.8333,362.3427 160.3583,361.8177 161,361.8177 " fill="#C0C0C0" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="222" x="169.3333" y="370.5449">RECIPEID : INTEGER NOT NULL</text></g><g id="elem_GMN5"><path d="M28.5,322.3564 L28.5,348.1558 A0,0 0 0 0 28.5,348.1558 L103.5,348.1558 A0,0 0 0 0 103.5,348.1558 L103.5,340.3564 L138.97,335.3564 L103.5,332.3564 L103.5,332.3564 L93.5,322.3564 L28.5,322.3564 A0,0 0 0 0 28.5,322.3564 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M93.5,322.3564 L93.5,332.3564 L103.5,332.3564 L93.5,322.3564 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="54" x="34.5" y="340.4263">Favorite</text></g><!--MD5=[f638cd15f6f28c9d074f66c603bfbae7]
+class id_t002--><g id="elem_id_t002"><rect codeLine="10" fill="#FFFFFF" height="100.6426" id="id_t002" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="230.3333" x="157" y="469.8564"/><ellipse cx="195.9167" cy="490.6558" fill="#FFA500" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M194.8854,497.6558 L194.8854,487.5464 L191.276,487.5464 L191.276,485.4839 L200.9479,485.4839 L200.9479,487.5464 L197.3542,487.5464 L197.3542,497.6558 L194.8854,497.6558 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="263.4167" y="486.9209">«table»</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="145" x="213.4167" y="503.5156">RECIPESCATALOG</text><line style="stroke:#000000;stroke-width:1.0;" x1="158" x2="386.3333" y1="511.4551" y2="511.4551"/><path d="M170.4167,519.6364 C168.8067,519.6364 167.5,520.9431 167.5,522.5531 C167.5,522.7397 167.5,522.9264 167.535,523.1014 L164,526.6364 L164,528.9697 L167.5,528.9697 L167.5,526.6364 L169.8333,526.6364 L169.8333,525.4697 L169.8683,525.4347 C170.0433,525.4697 170.23,525.4697 170.4167,525.4697 C172.0267,525.4697 173.3333,524.1631 173.3333,522.5531 C173.3333,520.9431 172.0267,519.6364 170.4167,519.6364 M171,520.8031 C171.6417,520.8031 172.1667,521.3281 172.1667,521.9697 C172.1667,522.6114 171.6417,523.1364 171,523.1364 C170.3583,523.1364 169.8333,522.6114 169.8333,521.9697 C169.8333,521.3281 170.3583,520.8031 171,520.8031 " fill="#DAA520" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="5" x="174.3333" y="529.5303"> </text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="19" x="179.3333" y="529.5303">ID</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="150" x="203.3333" y="529.5303">: INTEGER NOT NULL</text><path d="M167.5,536.651 C165.5633,536.651 164,538.2144 164,540.151 C164,542.0877 165.5633,543.651 167.5,543.651 C169.4367,543.651 171,542.0877 171,540.151 C171,538.2144 169.4367,536.651 167.5,536.651 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="202" x="179.3333" y="546.5449">NAME : VARCHAR NOT NULL</text><path d="M167.5,553.6657 C165.5633,553.6657 164,555.229 164,557.1657 C164,559.1024 165.5633,560.6657 167.5,560.6657 C169.4367,560.6657 171,559.1024 171,557.1657 C171,555.229 169.4367,553.6657 167.5,553.6657 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="196" x="179.3333" y="563.5596">DIET : VARCHAR NOT NULL</text></g><!--MD5=[50bff64abf064dc6b3b7a3674723fb01]
+entity f1--><g id="elem_f1"><path d="M90,636.3564 L90,838.3711 A2.5,2.5 0 0 0 92.5,840.8711 L419.5,840.8711 A2.5,2.5 0 0 0 422,838.3711 L422,643.8564 L412,633.8564 L92.5,633.8564 A2.5,2.5 0 0 0 90,636.3564 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M412,633.8564 L412,641.3564 A2.5,2.5 0 0 0 414.5,643.8564 L422,643.8564 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="100" y="657.9316">recipe as Json</text><image height="171" width="313" x="100" xlink:href="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE3MSIgd2lkdGg9IjMxMyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgPjxkZWZzLz48Zz48cmVjdCBmaWxsPSIjRkZGRkZGIiBzdHlsZT0id2lkdGg6MzEzcHg7aGVpZ2h0OjE3MXB4O2JhY2tncm91bmQ6I0ZGRkZGRjsiIC8+IDxyZWN0IGZpbGw9IiNGMUYxRjEiIGhlaWdodD0iMTI5LjY1NjMiIHJ4PSI1IiByeT0iNSIgc3R5bGU9InN0cm9rZTojRjFGMUYxO3N0cm9rZS13aWR0aDoxLjU7IiB3aWR0aD0iMTI2IiB4PSIxMCIgeT0iMTAiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9ImJvbGQiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTQiIHg9IjE1IiB5PSIyNi41MzMyIj5JRDwvdGV4dD48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSI0IiB4PSIxMTkiIHk9IjI2LjUzMzIiPsKgPC90ZXh0PjxsaW5lIHN0eWxlPSJzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjExNCIgeDI9IjExNCIgeTE9IjEwIiB5Mj0iMzEuNjA5NCIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjEwIiB4Mj0iMTM2IiB5MT0iMzEuNjA5NCIgeTI9IjMxLjYwOTQiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9ImJvbGQiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iNDEiIHg9IjE1IiB5PSI0OC4xNDI2Ij5OQU1FPC90ZXh0Pjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjQiIHg9IjExOSIgeT0iNDguMTQyNiI+wqA8L3RleHQ+PGxpbmUgc3R5bGU9InN0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxLjA7IiB4MT0iMTE0IiB4Mj0iMTE0IiB5MT0iMzEuNjA5NCIgeTI9IjUzLjIxODgiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIxMCIgeDI9IjEzNiIgeTE9IjUzLjIxODgiIHkyPSI1My4yMTg4Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjMxIiB4PSIxNSIgeT0iNjkuNzUyIj5ESUVUPC90ZXh0Pjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjQiIHg9IjExOSIgeT0iNjkuNzUyIj7CoDwvdGV4dD48bGluZSBzdHlsZT0ic3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIxMTQiIHgyPSIxMTQiIHkxPSI1My4yMTg4IiB5Mj0iNzQuODI4MSIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjEwIiB4Mj0iMTM2IiB5MT0iNzQuODI4MSIgeTI9Ijc0LjgyODEiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9ImJvbGQiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iOTQiIHg9IjE1IiB5PSI5MS4zNjEzIj5ERVNDUklQVElPTjwvdGV4dD48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSI0IiB4PSIxMTkiIHk9IjkxLjM2MTMiPsKgPC90ZXh0PjxsaW5lIHN0eWxlPSJzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjExNCIgeDI9IjExNCIgeTE9Ijc0LjgyODEiIHkyPSI5Ni40Mzc1Ii8+PGxpbmUgc3R5bGU9InN0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxLjA7IiB4MT0iMTAiIHgyPSIxMzYiIHkxPSI5Ni40Mzc1IiB5Mj0iOTYuNDM3NSIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSI5NCIgeD0iMTUiIHk9IjExMi45NzA3Ij5JTkdSRURJRU5UUzwvdGV4dD48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSIxMiIgeD0iMTE5IiB5PSIxMTIuOTcwNyI+wqDCoMKgPC90ZXh0PjxsaW5lIHN0eWxlPSJzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjExNCIgeDI9IjExNCIgeTE9Ijk2LjQzNzUiIHkyPSIxMTguMDQ2OSIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjEwIiB4Mj0iMTM2IiB5MT0iMTE4LjA0NjkiIHkyPSIxMTguMDQ2OSIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSIxMiIgeD0iMTUiIHk9IjEzNC41ODAxIj4uLi48L3RleHQ+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTIiIHg9IjExOSIgeT0iMTM0LjU4MDEiPi4uLjwvdGV4dD48bGluZSBzdHlsZT0ic3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIxMTQiIHgyPSIxMTQiIHkxPSIxMTguMDQ2OSIgeTI9IjEzOS42NTYzIi8+PHJlY3QgZmlsbD0ibm9uZSIgaGVpZ2h0PSIxMjkuNjU2MyIgcng9IjUiIHJ5PSI1IiBzdHlsZT0ic3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEuNTsiIHdpZHRoPSIxMjYiIHg9IjEwIiB5PSIxMCIvPjxyZWN0IGZpbGw9IiNGMUYxRjEiIGhlaWdodD0iNDMuMjE4OCIgcng9IjUiIHJ5PSI1IiBzdHlsZT0ic3Ryb2tlOiNGMUYxRjE7c3Ryb2tlLXdpZHRoOjEuNTsiIHdpZHRoPSIyMiIgeD0iMTczIiB5PSI4NS41Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTIiIHg9IjE3OCIgeT0iMTAyLjAzMzIiPsKgwqDCoDwvdGV4dD48bGluZSBzdHlsZT0ic3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIxNzMiIHgyPSIxOTUiIHkxPSIxMDcuMTA5NCIgeTI9IjEwNy4xMDk0Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTIiIHg9IjE3OCIgeT0iMTIzLjY0MjYiPsKgwqDCoDwvdGV4dD48cmVjdCBmaWxsPSJub25lIiBoZWlnaHQ9IjQzLjIxODgiIHJ4PSI1IiByeT0iNSIgc3R5bGU9InN0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxLjU7IiB3aWR0aD0iMjIiIHg9IjE3MyIgeT0iODUuNSIvPjxyZWN0IGZpbGw9IiNGMUYxRjEiIGhlaWdodD0iNDMuMjE4OCIgcng9IjUiIHJ5PSI1IiBzdHlsZT0ic3Ryb2tlOiNGMUYxRjE7c3Ryb2tlLXdpZHRoOjEuNTsiIHdpZHRoPSI2NyIgeD0iMjM0IiB5PSI1NS41Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMzgiIHg9IjIzOSIgeT0iNzIuMDMzMiI+TkFNRTwvdGV4dD48bGluZSBzdHlsZT0ic3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIyMzQiIHgyPSIzMDEiIHkxPSI3Ny4xMDk0IiB5Mj0iNzcuMTA5NCIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjU3IiB4PSIyMzkiIHk9IjkzLjY0MjYiPk5VTUJFUjwvdGV4dD48cmVjdCBmaWxsPSJub25lIiBoZWlnaHQ9IjQzLjIxODgiIHJ4PSI1IiByeT0iNSIgc3R5bGU9InN0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxLjU7IiB3aWR0aD0iNjciIHg9IjIzNCIgeT0iNTUuNSIvPjxyZWN0IGZpbGw9IiNGMUYxRjEiIGhlaWdodD0iNDMuMjE4OCIgcng9IjUiIHJ5PSI1IiBzdHlsZT0ic3Ryb2tlOiNGMUYxRjE7c3Ryb2tlLXdpZHRoOjEuNTsiIHdpZHRoPSIyMiIgeD0iMjU1LjUiIHk9IjExNi41Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTIiIHg9IjI2MC41IiB5PSIxMzMuMDMzMiI+Li4uPC90ZXh0PjxsaW5lIHN0eWxlPSJzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjI1NS41IiB4Mj0iMjc3LjUiIHkxPSIxMzguMTA5NCIgeTI9IjEzOC4xMDk0Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTIiIHg9IjI2MC41IiB5PSIxNTQuNjQyNiI+Li4uPC90ZXh0PjxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iNDMuMjE4OCIgcng9IjUiIHJ5PSI1IiBzdHlsZT0ic3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEuNTsiIHdpZHRoPSIyMiIgeD0iMjU1LjUiIHk9IjExNi41Ii8+PHBhdGggZD0iTTE4NSw5NiBMMTk4LDk2IEMyMDcuNTEsOTYgMjE3LjUwMTMsOTQuMzAxNiAyMjYuODM1OSw5MS45MjA0ICIgZmlsbD0ibm9uZSIgc3R5bGU9InN0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxLjA7c3Ryb2tlLWRhc2hhcnJheTozLjAsMy4wOyIvPjxwYXRoIGQ9Ik0yMjcuNjUwNiw5NC44NDk5IEwyMjkuMDMzLDkxLjMwOTQgTDIyNi4wMjEyLDg4Ljk5MDkgTDIzNC4xNTk2LDg5Ljg4MzcgTDIyNy42NTA2LDk0Ljg0OTkgIiBmaWxsPSIjMDAwMDAwIiBzdHlsZT0ic3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEuMDsiLz48ZWxsaXBzZSBjeD0iMTg1IiBjeT0iOTYiIGZpbGw9IiMwMDAwMDAiIHJ4PSIzIiByeT0iMyIgc3R5bGU9InN0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxLjA7Ii8+PHBhdGggZD0iTTE4NSwxMTggTDE5OCwxMTggQzIxNS42Nzk0LDExOCAyMzQuOTM1NCwxMjQuMTMxOSAyNDguNjAxNSwxMjkuNjA1MSAiIGZpbGw9Im5vbmUiIHN0eWxlPSJzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MS4wO3N0cm9rZS1kYXNoYXJyYXk6My4wLDMuMDsiLz48cGF0aCBkPSJNMjQ3LjQyOTYsMTMyLjM5MzggTDI1MC42OTMsMTMwLjQ4NDEgTDI0OS43NzM0LDEyNi44MTY0IEwyNTUuNTczMywxMzIuNTM0OSBMMjQ3LjQyOTYsMTMyLjM5MzggIiBmaWxsPSIjMDAwMDAwIiBzdHlsZT0ic3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEuMDsiLz48ZWxsaXBzZSBjeD0iMTg1IiBjeT0iMTE4IiBmaWxsPSIjMDAwMDAwIiByeD0iMyIgcnk9IjMiIHN0eWxlPSJzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MS4wOyIvPjxwYXRoIGQ9Ik0xMjQsMTA3IEwxMzcsMTA3IEMxNDYuMzc0LDEwNyAxNTYuNzg4NSwxMDcgMTY1LjQ3MTQsMTA3ICIgZmlsbD0ibm9uZSIgc3R5bGU9InN0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxLjA7c3Ryb2tlLWRhc2hhcnJheTozLjAsMy4wOyIvPjxwYXRoIGQ9Ik0xNjUuNDcxNCwxMTAuMDgxNSBMMTY3Ljc4MjUsMTA3IEwxNjUuNDcxNCwxMDMuOTE4NSBMMTczLjE3NTEsMTA3IEwxNjUuNDcxNCwxMTAuMDgxNSAiIGZpbGw9IiMwMDAwMDAiIHN0eWxlPSJzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MS4wOyIvPjxlbGxpcHNlIGN4PSIxMjQiIGN5PSIxMDciIGZpbGw9IiMwMDAwMDAiIHJ4PSIzIiByeT0iMyIgc3R5bGU9InN0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxLjA7Ii8+PCEtLU1ENT1bOWYxZmQ5OGVlODA0M2FlYTQ4OTkzYzMyMTFhYTgwZTVdCkBzdGFydGpzb24NCnsNCiJJRCIgOiAiIiwNCiJOQU1FIjogIiIsDQoiRElFVCI6ICIiLA0KIkRFU0NSSVBUSU9OIjogIiIsDQoiSU5HUkVESUVOVFMiOiBbDQogICAgWyJOQU1FIiwgIk5VTUJFUiJdLCBbIi4uLiIsICIuLi4iXQ0KXSwNCiIuLi4iOiAiLi4uIg0KfQ0KQGVuZGpzb24NCgpQbGFudFVNTCB2ZXJzaW9uIDEuMjAyMi43KE1vbiBBdWcgMjIgMjI6MzE6MzAgSVNUIDIwMjIpCihHUEwgc291cmNlIGRpc3RyaWJ1dGlvbikKSmF2YSBSdW50aW1lOiBKYXZhKFRNKSBTRSBSdW50aW1lIEVudmlyb25tZW50CkpWTTogSmF2YSBIb3RTcG90KFRNKSA2NC1CaXQgU2VydmVyIFZNCkRlZmF1bHQgRW5jb2Rpbmc6IFVURi04Ckxhbmd1YWdlOiBmcgpDb3VudHJ5OiBGUgotLT48L2c+PC9zdmc+" y="660.8711"/></g><!--MD5=[f138a3af511fe12014d72fa91890bc6c]
+entity recipes_img--><g id="elem_recipes_img"><path d="M460,709.8564 L501,709.8564 A3.75,3.75 0 0 1 503.5,712.3564 L510.5,730.8564 L568,730.8564 A2.5,2.5 0 0 1 570.5,733.3564 L570.5,762.3711 A2.5,2.5 0 0 1 568,764.8711 L460,764.8711 A2.5,2.5 0 0 1 457.5,762.3711 L457.5,712.3564 A2.5,2.5 0 0 1 460,709.8564 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="457.5" x2="510.5" y1="730.8564" y2="730.8564"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="83" x="467.5" y="751.9316">recipes_img</text></g><!--MD5=[dc2ade6ac6ac0b249f80fd471aa8da17]
+link id_t001 to id_t003--><g id="link_id_t001_id_t003"><path codeLine="96" d="M374,162.3564 C454.42,162.3564 479.59,335.5064 406.4,347.6864 " fill="none" id="id_t001-to-id_t003" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="405.9741" x2="398.4823" y1="347.7134" y2="354.337"/><line style="stroke:#000000;stroke-width:1.0;" x1="405.9741" x2="397.5177" y1="347.7134" y2="342.3759"/><line style="stroke:#000000;stroke-width:1.0;" x1="405.9741" x2="398" y1="347.7134" y2="348.3564"/><ellipse cx="411.9547" cy="347.2311" fill="none" rx="4" ry="4" style="stroke:#000000;stroke-width:1.0;"/></g><!--MD5=[adae62965dce8cff0c92a973b59d1c4c]
+link id_t003 to id_t002--><g id="link_id_t003_id_t002"><path codeLine="97" d="M398,365.3564 C465.83,365.3564 459.24,511.7164 395.99,523.1464 " fill="none" id="id_t003-to-id_t002" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="395.968" x2="388.5364" y1="523.1412" y2="529.8324"/><line style="stroke:#000000;stroke-width:1.0;" x1="395.968" x2="387.4636" y1="523.1412" y2="517.8805"/><line style="stroke:#000000;stroke-width:1.0;" x1="395.968" x2="388" y1="523.1412" y2="523.8564"/><line style="stroke:#000000;stroke-width:1.0;" x1="398.3176" x2="397.6023" y1="526.9464" y2="518.9784"/></g><!--MD5=[a00fcc9b9924554cbb3dc21d98324354]
+link id_t002 to f1--><g id="link_id_t002_f1"><path codeLine="98" d="M148.75,524.2464 C106.91,529.0964 130.07,578.2964 165.42,628.0864 " fill="none" id="id_t002-f1" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="170.4641" x2="163.9675" y1="628.2539" y2="632.9223"/><line style="stroke:#000000;stroke-width:1.0;" x1="168.7134" x2="162.2168" y1="625.8177" y2="630.4861"/><line style="stroke:#000000;stroke-width:1.0;" x1="164.8816" x2="169.55" y1="627.3398" y2="633.8364"/><line style="stroke:#000000;stroke-width:1.0;" x1="151.7933" x2="152.218" y1="520.0745" y2="528.0632"/><line style="stroke:#000000;stroke-width:1.0;" x1="148.7975" x2="149.2223" y1="520.2338" y2="528.2225"/><line style="stroke:#000000;stroke-width:1.0;" x1="148.0113" x2="156" y1="524.2812" y2="523.8564"/></g><!--MD5=[1c94508daba51fbed9d897cc2c2644dc]
+link id_t002 to recipes_img--><g id="link_id_t002_recipes_img"><path codeLine="99" d="M395.36,524.1864 C471.75,531.0264 500.06,644.0764 509.61,702.2864 " fill="none" id="id_t002-recipes_img" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="514.0711" x2="506.1679" y1="704.8744" y2="706.1154"/><line style="stroke:#000000;stroke-width:1.0;" x1="513.6057" x2="505.7026" y1="701.9107" y2="703.1517"/><line style="stroke:#000000;stroke-width:1.0;" x1="509.499" x2="510.74" y1="701.5433" y2="709.4464"/><line style="stroke:#000000;stroke-width:1.0;" x1="391.8166" x2="392.1754" y1="528.0318" y2="520.0399"/><line style="stroke:#000000;stroke-width:1.0;" x1="394.8135" x2="395.1724" y1="528.1664" y2="520.1744"/><line style="stroke:#000000;stroke-width:1.0;" x1="395.9919" x2="388" y1="524.2153" y2="523.8564"/></g><!--MD5=[fe91d5a1d82e79fbf5c8801455953426]
+@startuml
+
+!theme plain
+hide empty methods
+
+!procedure $schema($name, $slug)
+package "$name" as $slug <<Rectangle>>
+!endprocedure
+
+!procedure $table($name, $slug)
+entity "<b>$name</b>" as $slug << (T, Orange) table >>
+!endprocedure
+
+!procedure $view($name, $slug)
+entity "<b>$name</b>" as $slug << (V, Aquamarine) view >>
+!endprocedure
+
+!procedure $pk($name)
+<color:#GoldenRod><&key></color> <b>$name</b>
+!endprocedure
+
+!procedure $fk($name)
+<color:#Silver><&key></color> $name
+!endprocedure
+
+!procedure $column($name)
+{field} <color:#White><&media-record></color> $name
+!endprocedure
+
+!procedure $json($name, $slug)
+entity "<b>$name</b>" as $slug << (J, White) json >>
+!endprocedure
+
+
+
+title "Clean Out Your Fridge : DB Schema"
+
+
+$schema("Users primary data", "id_c001") {
+
+    $table("USERS", "id_t001") {
+        $pk("ID") : INTEGER NOT NULL
+        $column("USERNAME") : NOT NULL
+        $column("EMAIL") : NOT NULL
+        $column("DIET") : INTEGER
+    }
+
+    $table("USERCATALOG", "id_t003") {
+        $fk("USERID") : INTEGER NOT NULL
+        $fk("RECIPEID") : INTEGER NOT NULL
+    }
+
+    note left of id_t003 : Favorite
+    
+}
+
+$schema("Recipes", "id_c002") {
+
+    $table("RECIPESCATALOG", "id_t002") {
+        $pk("ID") : INTEGER NOT NULL
+        $column("NAME") : VARCHAR NOT NULL
+        $column("DIET") : VARCHAR NOT NULL
+    }
+
+
+    file f1 [
+    recipe as Json
+    {{json
+    {
+    "ID" : "",
+    "NAME": "",
+    "DIET": "",
+    "DESCRIPTION": "",
+    "INGREDIENTS": [
+        ["NAME", "NUMBER"], ["...", "..."]
+    ],
+    "...": "..."
+    }
+    }}
+    ]
+
+
+    
+
+}
+
+
+folder recipes_img {
+
+}
+
+
+
+
+
+
+id_c001.id_t001::ID - -o{ id_c001.id_t003::USERID
+id_c001.id_t003::RECIPEID - -|{ id_c002.id_t002::ID
+id_c002.id_t002::ID ||- -|| f1
+id_c002.id_t002::ID ||- -|| recipes_img
+
+
+
+
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor black
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+hide empty methods
+
+
+
+
+
+
+
+
+
+
+title "Clean Out Your Fridge : DB Schema"
+
+
+package "Users primary data" as id_c001 <<Rectangle>> {
+
+    entity "<b>USERS</b>" as id_t001 << (T, Orange) table >> {
+        <color:#GoldenRod><&key></color> <b>ID</b> : INTEGER NOT NULL
+        {field} <color:#White><&media-record></color> USERNAME : NOT NULL
+        {field} <color:#White><&media-record></color> EMAIL : NOT NULL
+        {field} <color:#White><&media-record></color> DIET : INTEGER
+    }
+
+    entity "<b>USERCATALOG</b>" as id_t003 << (T, Orange) table >> {
+        <color:#Silver><&key></color> USERID : INTEGER NOT NULL
+        <color:#Silver><&key></color> RECIPEID : INTEGER NOT NULL
+    }
+
+    note left of id_t003 : Favorite
+    
+}
+
+package "Recipes" as id_c002 <<Rectangle>> {
+
+    entity "<b>RECIPESCATALOG</b>" as id_t002 << (T, Orange) table >> {
+        <color:#GoldenRod><&key></color> <b>ID</b> : INTEGER NOT NULL
+        {field} <color:#White><&media-record></color> NAME : VARCHAR NOT NULL
+        {field} <color:#White><&media-record></color> DIET : VARCHAR NOT NULL
+    }
+
+
+    file f1 [
+    recipe as Json
+    {{json
+    {
+    "ID" : "",
+    "NAME": "",
+    "DIET": "",
+    "DESCRIPTION": "",
+    "INGREDIENTS": [
+        ["NAME", "NUMBER"], ["...", "..."]
+    ],
+    "...": "..."
+    }
+    }}
+    ]
+
+
+    
+
+}
+
+
+folder recipes_img {
+
+}
+
+
+
+
+
+
+id_c001.id_t001::ID - -o{ id_c001.id_t003::USERID
+id_c001.id_t003::RECIPEID - -|{ id_c002.id_t002::ID
+id_c002.id_t002::ID ||- -|| f1
+id_c002.id_t002::ID ||- -|| recipes_img
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 22:31:30 IST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>
