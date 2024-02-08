@@ -1,0 +1,23 @@
+@startuml
+
+
+Login.page/Register.page : BAPTISTE
+
+main.page : OLYMPE
+    -   liste des recettes ::FRONT
+    -   Auto connect ::FRONT
+   
+favorite.page : OLYMPE
+
+map shearch.system ::BACK : BAPTISTE
+
+
+map Database : ERWEN
+
+
+
+map skeleton : ERWEN
+map deploiemnt.local : BAPTISTE 
+
+=== TECHNOLOGIE
+WEB

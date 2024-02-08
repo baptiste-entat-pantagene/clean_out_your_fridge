@@ -3,7 +3,7 @@ title User State Diagram
 
 [*] --> Start_App
 
-state Start_App {
+state "Start App" as Start_App {
   state "Idle" as Start_App_Idle
   state "Load local data" as Start_App_Loadlocaldata
   state "Configuring" as Start_App_Configuring
@@ -51,34 +51,68 @@ state "Main Page" as Main_Page {
   state "Selection menu" as Selection_menu : Main page
   state "Selection" as main_select_all <<choice>>
 
-  state "User profile" as User_profile : User information
-  state "Food list" as Liste_de_course {
-    state "Update" as Food_update : Update actual value of the item in the basket
-    state "Add" as Food_add : Add a new product in the basket
-
-    Liste_de_course --> Food_add
-    Liste_de_course --> Food_update
-  }
+  state "User profile" as User_profile : Show or Update the user information
   state "Recipes" as Recipe {
     state "Filter" as Recipe_Filter : Filter the recipes with parameters
 
     Recipe --> Recipe_Filter
   }
-  state "Favorite Recipe" as Favorite_Recipe
+  state choice_recipe <<choice>>
+  
+  state "Favorite Recipe" as Favorite_Recipe : Show the favorite recipes
+  state choice_favorite <<choice>>
+  
+  state "Show recipe" as show_recipe : Show the ingredients and description
+  state choice_show_recipe <<choice>>
+
+  state "New cyle" as new_cycle <<exitPoint>>
+  
+  state "logout" as logout_from_main <<exitPoint>>
+
+
+
 
 
   Main_Page --> Selection_menu
   Selection_menu --> main_select_all
   main_select_all --> User_profile
-  main_select_all --> Liste_de_course
   main_select_all --> Recipe
-
   main_select_all --> Favorite_Recipe
+  main_select_all --> logout_from_main
+
+  Recipe --> choice_recipe
+  choice_recipe --> new_cycle : Exit shearch page
+  choice_recipe --> show_recipe : Discover a recipe
+  
+
+  Favorite_Recipe --> choice_favorite
+  choice_favorite --> show_recipe : Select a recipe
+  choice_favorite --> new_cycle : Exit favorite page
+
+  User_profile --> new_cycle
+
+  show_recipe --> choice_show_recipe
+  choice_show_recipe --> new_cycle : Exit recipe page
+
+  new_cycle --> Selection_menu : New cycle
 
 
+  note bottom of User_profile : Set the calorie target.\nChange the Diet.\nUpdate the users name.
 
 }
 
+state Logout : Update client cache
+Logout --> Start_App
+logout_from_main --> Logout
+
+
+
+legend top left
+  | **Name** |
+  | Baptiste |
+  | Erwen |
+  | Olympe |
+endlegend
 
 
 @enduml

@@ -43,6 +43,8 @@ $schema("Users primary data", "id_c001") {
         $column("USERNAME") : NOT NULL
         $column("EMAIL") : NOT NULL
         $column("DIET") : INTEGER
+        $column("CALORIE_TARGET") : INTEGER
+        $column("CALORIE_CURRENT") : INTEGER
     }
 
     $table("USERCATALOG", "id_t003") {
@@ -60,6 +62,7 @@ $schema("Recipes", "id_c002") {
         $pk("ID") : INTEGER NOT NULL
         $column("NAME") : VARCHAR NOT NULL
         $column("DIET") : VARCHAR NOT NULL
+        $column("DESCRIPTION") : VARCHAR
     }
 
 
